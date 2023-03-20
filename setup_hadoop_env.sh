@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo rm /etc/profile.d/export_hadoop_env.sh
+sudo rm /etc/profile.d/export_hadoop_env.sh > /dev/null
 sudo touch /etc/profile.d/export_hadoop_env.sh
 
 sudo echo "# export hadoop env variables
