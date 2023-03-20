@@ -22,4 +22,14 @@ cs525node0902 172.22.153.38 DataNode
 cs525node0903 172.22.155.81 DataNode SecondNameNode
 ```
 
+### Steps
+
+*find a place for this repo*
+```
+mkdir ~/infra_setup
+mkdir ~/infra_setup/hadoop_dist_setup
+cd ~/infra_setup/hadoop_dist_setup
+git clone https://github.com/zzb66666666x/Hadoop-setup-scripts.git .
+chmod +x *.sh
+```
 
