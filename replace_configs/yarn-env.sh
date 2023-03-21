@@ -176,4 +176,4 @@
 # export YARN_CONTAINER_RUNTIME_DOCKER_RUN_OVERRIDE_DISABLE=true
 
 # add by Zhongbo Zhu, 2023/3/20
-export JAVA_HOME=/usr/bin/java
+export JAVA_HOME=/usr/bin
