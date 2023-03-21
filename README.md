@@ -30,7 +30,7 @@ cs525node0903 172.22.155.81 DataNode SecondNameNode
 sudo rpm -ivh jdk-8u202-linux-x64.rpm
 ```
 
-Use `update-alternatives` to change deafult java environment. Then the `JAVA_HOME` will be located at `/usr/java/default`.
+Use `sudo update-alternatives --config java` to change deafult java environment. Then the `JAVA_HOME` will be located at `/usr/java/default`.
 
 *find a place for this repo*
 ```
