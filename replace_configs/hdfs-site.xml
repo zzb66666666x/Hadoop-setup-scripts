@@ -25,9 +25,4 @@
       <name>dfs.namenode.secondary.http-address</name>
       <value>cs525node0903:50090</value>
   </property>
-  <!-- test web ui -->
-  <property>
-      <name>dfs.permissions</name>
-      <value>false</value>
-  </property>
 </configuration>
