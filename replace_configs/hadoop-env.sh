@@ -430,5 +430,3 @@ export HADOOP_OS_TYPE=${HADOOP_OS_TYPE:-$(uname -s)}
 # export HADOOP_REGISTRYDNS_SECURE_EXTRA_OPTS="-jvm server"
 
 
-# Zhongbo added on 2023/3/20
-export HADOOP_OPTS="${HADOOP_OPTS} --add-modules java.activation"
