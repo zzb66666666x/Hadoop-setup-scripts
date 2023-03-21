@@ -24,6 +24,13 @@ cs525node0903 172.22.155.81 DataNode SecondNameNode
 
 ### Steps
 
+*make sure you have java*
+
+If the `JAVA_HOME` is not set, but you still have java binary, try the following command.
+```
+dirname $(dirname $(readlink -f $(which javac)))
+```
+
 *find a place for this repo*
 ```
 mkdir ~/infra_setup
