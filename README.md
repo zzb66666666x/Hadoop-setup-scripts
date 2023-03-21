@@ -8,9 +8,9 @@ hadoop 3.3.4
 ```
 *java*
 ```
-openjdk version "1.8.0_362"
-OpenJDK Runtime Environment (build 1.8.0_362-b09)
-OpenJDK 64-Bit Server VM (build 25.362-b09, mixed mode)
+java version "1.8.0_202"
+Java(TM) SE Runtime Environment (build 1.8.0_202-b08)
+Java HotSpot(TM) 64-Bit Server VM (build 25.202-b08, mixed mode)
 ```
 
 
@@ -24,12 +24,13 @@ cs525node0903 172.22.155.81 DataNode SecondNameNode
 
 ### Steps
 
-*make sure you have java*
+*install java 8 downloaded from oracle website using rpm*
 
-If the `JAVA_HOME` is not set, but you still have java binary, try the following command.
 ```
-dirname $(dirname $(readlink -f $(which javac)))
+sudo rpm -ivh jdk-8u202-linux-x64.rpm
 ```
+
+Use `update-alternatives` to change deafult java environment. Then the `JAVA_HOME` will be located at `/usr/java/default`.
 
 *find a place for this repo*
 ```
